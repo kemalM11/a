@@ -1,0 +1,141 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+h1{
+	text-align: center;
+	font-size: 30px;
+	margin: 10px 0;
+	color: royalblue;
+}
+
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.wrapper{
+	width: 400px;
+	margin: 0 auto;
+}
+
+.content-isi input{
+	background-color: #f5f6f7;
+	display: block;
+	border-radius: 5px;
+	border: 1px solid lightgrey;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 5px;
+	font-size: 15px;
+}
+
+#login_button{
+	background-color: royalblue;
+	color: white;
+	border: none;
+	width: 100%;
+	font-size: 18px;
+	text-align: center;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+#new_button{
+	background-color: #00a400;
+	color: white;
+	border: none;
+	width: 170px;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px 15px;
+	margin-top: 10px;
+	margin-left: 115px;
+	margin-right: 115px;
+}
+
+#link{
+	padding: 10px 0;
+	text-align: center;
+}
+
+#link a{
+	color: #216fdb;
+	text-decoration: none;
+	font-size: 15px;
+	text-align: center;
+}
+
+#p_border{
+	text-align: center;
+	color: grey;
+}
+
+.content-isi form{
+	margin-bottom: 50px;
+}
+
+
+/*----- footer -----*/
+.content-footer{
+	padding: 10px 0;
+}
+
+.bahasa a{
+	text-decoration: none;
+	color: #216fdb;
+}
+
+.bahasa a:hover{
+	text-decoration: underline;
+}
+
+.bahasa .kiri{
+	float: left;
+	text-align: center;
+	width: 50%;
+	font-size: 12px;
+}
+
+.bahasa .kanan{
+	float: left;
+	text-align: center;
+	width: 50%;
+	font-size: 12px;
+}
+
+.bahasa ul li{
+	list-style: none;
+}
+
+.content-footer p:last-child{
+	text-align: center;
+	font-size: 10px;
+	margin: 15px 0;
+}
+
+#p_about a{
+	text-decoration: none;
+	color: grey;
+}
+
+#p_about{
+	text-align: center;
+	font-size: 10px;
+	color: grey;
+}
+
+/*#kiri{
+	text-align: center;
+	font-size: 12px;
+	width: 50%;
+}
+
+#kanan{
+	float: right;
+	width: 50%;
+}*/
